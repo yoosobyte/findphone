@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cream_50">#121110</color>
+    <color name="cream_100">#1C1917</color>
+    <color name="cream_200">#2B2723</color>
+
+    <color name="ink_900">#F4EFE8</color>
+    <color name="ink_700">#D9D0C5</color>
+    <color name="ink_500">#A79D92</color>
+    <color name="ink_300">#766D64</color>
+
+    <color name="coral_600">#C24E33</color>
+    <color name="coral_700">#F08A6B</color>
+    <color name="coral_500">#E47A5B</color>
+    <color name="coral_100">#33201B</color>
+    <color name="coral_050">#261814</color>
+
+    <color name="sage_600">#9CC7A4</color>
+    <color name="sage_100">#1D2A20</color>
+    <color name="blue_600">#A9BCE8</color>
+    <color name="blue_100">#1B2233</color>
+    <color name="plum_600">#C9A9D4</color>
+    <color name="plum_100">#261E2B</color>
+    <color name="gold_600">#D9BC76</color>
+    <color name="gold_100">#2A2317</color>
+    <color name="rose_600">#E3A1AE</color>
+    <color name="rose_100">#2B1C21</color>
+
+    <color name="avatar_on_accent">#2B1B15</color>
+    <color name="card_surface">#1C1917</color>
+    <color name="bell_surface">#2B2723</color>
+    <color name="bell_ripple">#33FFFFFF</color>
+    <color name="badge_surface">#2B2723</color>
+    <color name="card_ripple">#1FFFFFFF</color>
+    <color name="action_ripple">#1FFFFFFF</color>
+    <color name="webview_background">#121110</color>
+    <color name="header_shadow">#66000000</color>
+    <color name="header_surface">#1C1917</color>
+    <color name="snackbar_background">#2B2723</color>
+    <color name="snackbar_text">#F4EFE8</color>
+    <color name="snackbar_action">#F08A6B</color>
+</resources>

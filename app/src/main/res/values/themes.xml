@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.FindphoneBase" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/coral_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/coral_100</item>
+        <item name="colorOnPrimaryContainer">@color/ink_900</item>
+        <item name="colorSecondary">@color/sage_600</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/cream_50</item>
+        <item name="colorOnSurface">@color/ink_900</item>
+        <item name="colorSurfaceVariant">@color/cream_100</item>
+        <item name="colorOnSurfaceVariant">@color/ink_500</item>
+        <item name="colorOutline">@color/ink_300</item>
+        <item name="colorOutlineVariant">@color/cream_200</item>
+        <item name="android:colorBackground">@color/cream_50</item>
+        <item name="android:windowBackground">@color/cream_50</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Findphone.Dialog</item>
+        <item name="android:windowDisablePreview">false</item>
+    </style>
+
+    <style name="Theme.Findphone" parent="Theme.FindphoneBase" />
+
+    <style name="ThemeOverlay.Findphone.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorSurface">@color/cream_50</item>
+        <item name="colorOnSurface">@color/ink_900</item>
+        <item name="colorPrimary">@color/coral_700</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Findphone.Dialog</item>
+    </style>
+
+    <style name="ShapeAppearance.Findphone.Dialog" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="Widget.Findphone.TextField" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="hintTextColor">@color/coral_700</item>
+        <item name="boxStrokeColor">@color/field_stroke</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+    </style>
+
+    <style name="Widget.Findphone.DropdownField" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="hintTextColor">@color/coral_700</item>
+        <item name="boxStrokeColor">@color/field_stroke</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+    </style>
+
+    <style name="Widget.Findphone.PrimaryButton" parent="Widget.Material3.Button">
+        <item name="cornerRadius">10dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="backgroundTint">@color/coral_600</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="rippleColor">#33FFFFFF</item>
+    </style>
+
+    <style name="Widget.Findphone.TextButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/coral_700</item>
+        <item name="android:textSize">14sp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+</resources>

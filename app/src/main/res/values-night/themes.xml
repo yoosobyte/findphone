@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Findphone" parent="Theme.FindphoneBase">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorOnPrimary">@color/avatar_on_accent</item>
+        <item name="colorOnSecondary">@color/avatar_on_accent</item>
+    </style>
+</resources>

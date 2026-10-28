@@ -1,0 +1,23 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/.temp/
+/.kotlin/
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Release signing material: never commit
+/keystore.properties
+/*.jks
+/*.keystore
