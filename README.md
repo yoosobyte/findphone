@@ -294,3 +294,9 @@ adb install -r dist\FindPhone-v1.9-release.apk
 - 如果账号开启了响铃二次验证，云端会返回 `8007`，需要先在 OPPO 云服务网页完成一次验证，应用目前不能代替账号 SDK 完成这一步。
 - 当前交付的是已签名 release APK，可直接侧载；如需自己重新签名，使用根目录的 `findphone-release.jks`。
 - 本项目仅用于找回自己的设备，请使用你本人或已获授权的家人账号。
+
+## 许可证
+
+本项目基于 [Apache License 2.0](LICENSE) 开源，可自由使用、修改和商用，需保留版权与许可声明。
+
+> 本项目与 OPPO / 一加 / realme 官方无关，相关商标归其各自所有者所有。
